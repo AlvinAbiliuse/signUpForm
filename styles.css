@@ -1,0 +1,46 @@
+@font-face {
+	font-family: norseBold;
+	src: url("./fonts/norse-bold-webfont.woff") format("woff"),
+		 url("./fonts/norse-bold-webfont.woff2") format("woff2");
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.3em;
+}
+
+body {
+	display: flex;
+}
+
+#leftContainer {
+	flex: 2;
+	font-family: norseBold, sans-serif;
+	background: url("./images/background.jpg");
+	color: white;
+	height: 100vh;
+	font-size: 40px;
+	margin: auto;
+}
+
+#leftContainer div {
+	position: relative;
+	top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(0 0 0 / 30%);
+	padding: 30px;
+	gap: 20px;
+}
+
+
+#rightContainer {
+	flex: 3;
+	height: 100vh;
+	padding: 30px;
+	font-family: sans-serif;
+}
